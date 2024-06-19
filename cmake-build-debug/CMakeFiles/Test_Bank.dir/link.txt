@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Test_Bank.dir/Test_Bank.cpp.o -o Test_Bank  lib/libgtest_main.a lib/libgmock_main.a lib/libgmock.a lib/libgtest.a 

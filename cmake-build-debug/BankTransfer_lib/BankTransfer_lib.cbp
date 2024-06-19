@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BankTransfer_lib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\BankTransfer_lib\;CMake Files\Bank_Tester\;CMake Files\Bank_Tester\lib\;CMake Files\Bank_Tester\lib\googlemock\;CMake Files\Bank_Tester\lib\googlemock\cmake\;CMake Files\Bank_Tester\lib\googletest\;CMake Files\Bank_Tester\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BankTransfer_lib">
+				<Option output="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/libBankTransfer_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/BankTransfer_lib"/>
+					<Add directory="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 BankTransfer_lib"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BankTransfer_lib/fast">
+				<Option output="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/libBankTransfer_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/BankTransfer_lib"/>
+					<Add directory="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 BankTransfer_lib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug/BankTransfer_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/BankTransfer_lib/BankAccount.cpp">
+			<Option target="BankTransfer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/BankTransfer_lib/BankAccount.h">
+			<Option target="BankTransfer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/BankTransfer_lib/Transaction.cpp">
+			<Option target="BankTransfer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/BankTransfer_lib/Transaction.h">
+			<Option target="BankTransfer_lib"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/BankTransfer_lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\BankTransfer_lib\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Bank_Tester\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/Bank_Tester/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Bank_Tester\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

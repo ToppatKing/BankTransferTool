@@ -1,0 +1,257 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "BankTransfer_lib",
+					"jsonFile" : "directory-BankTransfer_lib-Debug-3c2675564fc11da1373f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "BankTransfer_lib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Bank_Tester",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Bank_Tester-Debug-31f9dd1bb5643d5157b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Bank_Tester",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Bank_Tester/lib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Bank_Tester.lib-Debug-bd2f5c71b8742342420a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "Bank_Tester/lib"
+				},
+				{
+					"build" : "Bank_Tester/lib/googlemock",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Bank_Tester.lib.googlemock-Debug-f59a624e7cfb3c5d686d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "Bank_Tester/lib/googlemock",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Bank_Tester/lib/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Bank_Tester.lib.googletest-Debug-c33efb76d49142c3c6bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "Bank_Tester/lib/googletest",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TrasferimentiBancari"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "BankTransfer_lib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Bank_Tester",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 2
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gmock",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gtest",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "BankTransfer_lib::@b15f654c07f6cbb00778",
+					"jsonFile" : "target-BankTransfer_lib-Debug-ae253a6c564507d90f8a.json",
+					"name" : "BankTransfer_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Google_Tests_run::@9f651eb9d1cd98bfcf07",
+					"jsonFile" : "target-Google_Tests_run-Debug-7a854ed6fb8fd7d00654.json",
+					"name" : "Google_Tests_run",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock::@e460ed3a28f34bfb6b13",
+					"jsonFile" : "target-gmock-Debug-80bab88fd40cbe70d4df.json",
+					"name" : "gmock",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock_main::@e460ed3a28f34bfb6b13",
+					"jsonFile" : "target-gmock_main-Debug-5ebc4aef382cb1ca56d0.json",
+					"name" : "gmock_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest::@fe50da74b5c25f211ac5",
+					"jsonFile" : "target-gtest-Debug-623436aedf02d081b2ab.json",
+					"name" : "gtest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest_main::@fe50da74b5c25f211ac5",
+					"jsonFile" : "target-gtest_main-Debug-e983bd430fd2a16c9cf6.json",
+					"name" : "gtest_main",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari/cmake-build-debug",
+		"source" : "/mnt/c/Users/Viper/CLionProjects/TrasferimentiBancari"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

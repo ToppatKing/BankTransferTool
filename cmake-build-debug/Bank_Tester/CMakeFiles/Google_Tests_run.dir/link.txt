@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Google_Tests_run.dir/basic_tests/BankAccountTest.cpp.o CMakeFiles/Google_Tests_run.dir/basic_tests/TransactionTest.cpp.o -o Google_Tests_run  ../lib/libgtest.a ../lib/libgtest_main.a ../BankTransfer_lib/libBankTransfer_lib.a ../lib/libgtest.a 

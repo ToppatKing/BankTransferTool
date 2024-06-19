@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBankTransfer_lib.a CMakeFiles/BankTransfer_lib.dir/Transaction.cpp.o CMakeFiles/BankTransfer_lib.dir/BankAccount.cpp.o
+/usr/bin/ranlib libBankTransfer_lib.a
